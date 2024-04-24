@@ -1,0 +1,72 @@
+/* style.css */
+
+.App {
+    background-color: #b6cdee; 
+  }
+
+.character-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .character-item {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .character-name {
+    margin-top: 5px;
+  }
+  
+  .character-image {
+    max-width: 200px;
+    height: auto;
+  }
+  
+
+  .selected-character-image {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  div > h3,
+  div > p,
+  div > button {
+    text-align: center;
+  }
+  
+
+  .selected-character-container {
+    text-align: center;
+  }
+  
+  .selected-character-image {
+    display: inline-block;
+    margin-bottom: 20px; /* Ajusta el espacio entre la imagen y la información */
+  }
+  
+  .selected-character-info {
+    text-align: left; /* Alinea el texto de la información del personaje a la izquierda */
+  }
+
+  
+  .selected-character-container {
+    text-align: center;
+  }
+  
+  .selected-character-image {
+    display: inline-block;
+    margin-bottom: 20px; /* Ajusta el espacio entre la imagen y la información */
+  }
+  
+  .selected-character-info {
+    text-align: left; /* Alinea el texto de la información del personaje a la izquierda */
+  }
+  
+  .close-button-container {
+    text-align: center;
+  }
+  
